@@ -10,7 +10,7 @@ body {
 }
 
 .content-wrapper {
-  margin: 0 auto;
+  margin: -8% auto 5% auto;
   max-width: 1200px;
   display: flex;
   flex-flow: row wrap;
