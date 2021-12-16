@@ -74,7 +74,7 @@ header .row .col-md-5 img {
 }
 
 header {
-  background-image: url("../assets/header-img.jpg");
+  background-image: url("assets/header-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
