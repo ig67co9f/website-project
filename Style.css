@@ -152,7 +152,7 @@ header .container .col-md-7 p {
 
 .cover {
   width: 100%;
-  background: url("../assets/index-home.jpg");
+  background: url("assets/index-home.jpg");
   background-size: 100%;
   position: relative;
 }
