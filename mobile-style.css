@@ -2,13 +2,19 @@
   header .navbar-brand {
     padding-left: 1rem;
   }
+  .h1-font-size {
+    font-size: 45px;
+  }
   .section-1 .row .col-md-6 .panel {
     position: initial;
     width: initial;
     height: initial;
   }
-  .section-2 .cover {
+
+  .section-3 .cover {
     background-position: -25vmin -10vmin;
+    object-fit: cover;
+    background-size: 400%;
   }
   .numbers .rect {
     width: 10rem;
@@ -34,6 +40,11 @@
   .section-4 .carousel-item {
     padding-left: 0.6rem;
   }
+  .section-5 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
   footer .row .col-md-2 {
     margin-top: 8vmin;
   }
@@ -42,8 +53,14 @@
 /* screen size 375px */
 
 @media only screen and (max-width: 375px) {
-  .section-4 .card {
-    width: 18em;
+  .logo {
+    max-height: 40px;
+  }
+  header .navbar-brand {
+    padding-left: 0.8rem;
+  }
+  .section-5 .card {
+    width: 12em;
   }
 }
 
